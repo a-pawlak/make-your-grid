@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Make your grid is! is app, which allows you make your custom grid container in few seconds and get the HTML and CSS ready to use"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="icon" href="./img/favicon.png">
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script defer type="module" src="./js/script.js"></script>
+    <title>Make your grid!</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-primary">Make your custom grid</h1>
+      <div class="menu">
+        <div class="params-btns">
+          <h2 class="header-secondary">1</h2>
+          <div class="flex-wrapper">
+            <p class="params-btns--btns">Choose cell size</p>
+            <div class="action-icons">
+              <ion-icon
+                class="icon grid-size-1 icon-sm"
+                name="expand-outline"
+              ></ion-icon>
+              <ion-icon
+                class="icon grid-size-2 icon-md"
+                name="expand-outline"
+              ></ion-icon>
+              <ion-icon
+                class="icon grid-size-3 icon-l"
+                name="expand-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="item-selection">
+          <h2 class="header-secondary">2</h2>
+          <div class="flex-wrapper">
+            <p class="params-btns--btns">Select shape</p>
+            <ion-icon class="icon icon-l" name="pie-chart-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="safe-item">
+          <h2 class="header-secondary">3</h2>
+          <div class="flex-wrapper">
+            <p class="params-btns--btns">Save item</p>
+            <ion-icon class="icon icon-l" name="save-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="functions">
+          <h2 class="header-secondary">4</h2>
+          <div class="flex-wrapper">
+            <p class="params-btns--btns">Get CODE</p>
+            <div class="action-icons">
+              <ion-icon
+                class="icon icon-l"
+                name="arrow-back-outline"
+              ></ion-icon>
+
+              <ion-icon class="icon icon-l" name="refresh-outline"></ion-icon>
+              <span>&nbsp;</span>
+              <ion-icon
+                class="icon icon-l"
+                name="code-download-outline"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-1">
+        <div class="grid-container background-img selection-area-container">
+          <div class="starter">
+            <div class="starter-header">
+              <h1><p>Make your custom grid in seconds!</p></h1>
+          <p class="click">Click on screen to start</p>
+            </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- ||||||||||||||||||||| -->
+      <section class="section-2">
+        <header class="section-2--head">
+          <h2 class="section-2-header"><button class="btn-up"><ion-icon name="arrow-up-outline"></ion-icon> UP</button><span>HTML</span></h2>
+          <h2 class="section-2-header"><span>&nbsp;</span><span>CSS</span></h2>
+        </header>
+
+        <div class="section-2-flex-wrapper">
+            <div class="code html-code">
+            </div>
+            <div class="code css-code">
+            </div>
+        </div>
+
+      </section>
+      </div>
+    </main>
+  </body>
+</html>

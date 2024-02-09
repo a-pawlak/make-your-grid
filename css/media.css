@@ -1,0 +1,37 @@
+/* 1000px */
+@media (max-width: 62em) {
+  .starter {
+    font-size: 5.2rem;
+  }
+  .starter-header {
+    max-width: 70%;
+  }
+  .click {
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+  }
+}
+
+/* 640px */
+@media (max-width: 40em) {
+  .starter {
+    font-size: 3.2rem;
+  }
+  .starter-header {
+    max-width: 80%;
+  }
+  .click {
+    margin-top: 3.2rem;
+    font-size: 1.8rem;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu > div {
+    border: none;
+  }
+  .header-secondary {
+    font-size: 3.2rem;
+  }
+}
